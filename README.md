@@ -1,6 +1,6 @@
 ## Yue Cai
 
-Backend / full-stack developer with a finance background. Montréal & Waterloo, Canada.
+Backend / full-stack developer with a finance background. Montréal, Canada.
 
 **Master of Applied Computing @ Wilfrid Laurier University (GPA 11.4 / 12.0)**  
 **Master of Science in Finance · Passed Level I of the CFA Program**
@@ -23,6 +23,6 @@ Enter the key figures from a company's annual report, get eight core financial r
 
 ### Currently
 
-Finishing my Master of Applied Computing (expected May 2027) and looking for a **backend, full-stack, or financial-systems developer** role in Canada — Montréal, Waterloo/Toronto, or remote. Permanent resident, no sponsorship required.
+**Available immediately for full-time work.** Looking for a backend, full-stack, or financial-systems developer role in Montréal or remote; also open to co-op and internship terms. Completing a Master of Applied Computing (expected May 2027). Permanent resident, no sponsorship required.
 
 📫 caiyue2011@gmail.com
