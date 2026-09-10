@@ -3,7 +3,7 @@
 Backend / full-stack developer with a finance background. Montréal & Waterloo, Canada.
 
 **Master of Applied Computing @ Wilfrid Laurier University (GPA 11.4 / 12.0)**  
-Master of Science in Finance · Passed Level I of the CFA Program
+**Master of Science in Finance · Passed Level I of the CFA Program**
 
 I build Python services and the interfaces on top of them. What I care about is the unglamorous part: data models that hold up, migrations that actually run, tests that catch things, and AI features that cite their sources instead of guessing.
 
