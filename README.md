@@ -16,20 +16,20 @@ I build backend services in Python (FastAPI) and Java (Spring Boot), and the Rea
 
 ### Projects
 
-**[Garden Manager](https://github.com/YueCai335/garden-manager)** · [live demo](https://garden-manager-demo.vercel.app)
-
-Full-stack garden operations and seasonal-planning app built with Next.js, TypeScript, FastAPI, and PostgreSQL. Automatic workspace sync uses revision checks to surface conflicting saves; crop-family rotation rules guide next-season planning. The local app includes pgvector RAG with citations and Chinese/English care-note extraction with review before saving. An Allocation Assistant — a small tool-calling agent with a hand-written loop, two read-only tools, and a hard per-run cost cap — drafts next season's crop placement; the server re-checks every draft, nothing is saved until the gardener confirms, and a paid evaluation against an enumerating baseline is published in the repo ([agent write-up](https://github.com/YueCai335/garden-manager/blob/main/docs/agent.md)). The hosted demo covers Garden, Care, and Season Planner. GitHub Actions checks lint, types, frontend and backend tests (SQLite and PostgreSQL), a Playwright save-and-reload flow, a production build, and Docker Compose health.
-
 **[Fraud Detection System](https://github.com/YueCai335/fraud-detection-system)**
 
-Scores PaySim-style transactions with a Spring Boot 3 REST service, Spring Security, Flyway-managed MySQL, and a Flask/scikit-learn model service with SHAP explanations. Asynchronous CSV jobs support progress tracking, idempotent submission, checkpoint recovery, and S3 result downloads; Resilience4j adds model-call retries and a circuit breaker. Built from a Java EE course project, with the migration documented in the repo. Verified on AWS ECS Fargate, RDS, and S3 using Terraform and GitHub Actions; the environment runs on demand ([deployment record](https://github.com/YueCai335/fraud-detection-system/blob/main/docs/deployment.md)). The same three-stage pipeline (JUnit, pytest, Docker Compose smoke test) runs on GitHub Actions and on Jenkins ([Jenkins write-up](https://github.com/YueCai335/fraud-detection-system/blob/main/docs/ci-jenkins.md)). A separate [Databricks module](https://github.com/YueCai335/fraud-detection-system/tree/main/databricks-etl) builds a bronze/silver/gold PySpark pipeline over Delta tables, with named data-quality rules and reconciliation checks.
+Spring Boot 3 REST service and a Flask/scikit-learn model service that score transactions and explain each flag with SHAP, migrated from a Java EE/SOAP course project ([migration write-up](https://github.com/YueCai335/fraud-detection-system/blob/main/docs/migration.md)). Large CSVs run as resumable asynchronous jobs on S3, with Resilience4j retries around the model call. Verified on AWS ECS Fargate, RDS and S3 with Terraform ([deployment record](https://github.com/YueCai335/fraud-detection-system/blob/main/docs/deployment.md)), tested on GitHub Actions and [Jenkins](https://github.com/YueCai335/fraud-detection-system/blob/main/docs/ci-jenkins.md), plus a separate [Databricks PySpark pipeline](https://github.com/YueCai335/fraud-detection-system/tree/main/databricks-etl) with reconciliation checks.
+
+**[Garden Manager](https://github.com/YueCai335/garden-manager)** · [live demo](https://garden-manager-demo.vercel.app)
+
+Full-stack Next.js, FastAPI and PostgreSQL app for garden records and next-season planning, with revision-checked auto-save and crop-rotation rules; the live demo covers Garden, Care and Season Planner. The local app adds cited pgvector RAG answers and a small tool-calling agent whose [paid evaluation](https://github.com/YueCai335/garden-manager/blob/main/docs/agent.md) is published with its failures. CI runs lint, type checks, backend tests on SQLite and PostgreSQL, and a Playwright end-to-end flow.
 
 **[Financial Ratio Analyzer](https://github.com/YueCai335/financial-ratio-analyzer)**
 
-Enter the key figures from a company's annual report, get eight core financial ratios, and see multi-year trends and cross-company comparisons. FastAPI + SQLite, with the ratio layer written as pure functions so it can be tested without a database. The DuPont identity (ROE = ROA × equity multiplier) and the leverage identity are asserted in the test suite, so a mistyped formula fails rather than returning a plausible number. Health warnings use documented thresholds, with each warning tied to its ratio value and threshold.
+Eight core financial ratios from annual-report figures, with multi-year trends and cross-company comparison (FastAPI + SQLite). The DuPont and leverage identities are asserted in the test suite, so a mistyped formula fails instead of returning a plausible number.
 
 ### Currently
 
-**Available immediately for full-time work.** Looking for a backend, full-stack, or financial-systems developer role in Montréal or remote; also open to internships. Completing a Master of Applied Computing (expected May 2027). Permanent resident, no sponsorship required.
+**Available immediately for full-time work.** Looking for a backend, full-stack, or financial-systems developer role in Montréal or remote; also open to internships. Completing a Master of Applied Computing part-time, one course per term (expected May 2027). Permanent resident, no sponsorship required.
 
 📫 caiyue2011@gmail.com
