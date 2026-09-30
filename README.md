@@ -30,6 +30,6 @@ Eight core financial ratios from annual-report figures, with multi-year trends a
 
 ### Currently
 
-**Available immediately for full-time work.** Looking for a backend, full-stack, or financial-systems developer role in Montréal or remote; also open to internships. Completing a Master of Applied Computing part-time, one course per term (expected May 2027). Permanent resident, no sponsorship required.
+**Available immediately for full-time work.** Looking for a backend, full-stack, or financial-systems developer role in Montréal or remote; also open to internships. Completing a Master of Applied Computing part-time (expected May 2027). Permanent resident, no sponsorship required.
 
 📫 caiyue2011@gmail.com
